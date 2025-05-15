@@ -41,6 +41,8 @@ public class HomePage {
 	@FindBy(linkText="Products")
 	private WebElement productLink;
 	
+	@FindBy(linkText="Documents")
+	private WebElement documentLink;
 	
 	
 	public WebElement getContactLink() {
@@ -69,6 +71,10 @@ public class HomePage {
 	
 	public WebElement getProductLink() {
 		return productLink;
+	}
+	
+	public WebElement geTDocumentLink() {
+		return documentLink;
 	}
 	
 	public void navigateToCampaignPage() {
