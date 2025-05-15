@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-14T12:35:50 IST" name="Default suite" finished-at="2025-05-14T12:36:28 IST" duration-ms="37803">
+    <groups>
+      <group name="regressionTest">
+        <method signature="AssertCreateContactTest.createContactWithOrgTest()[pri:0, instance:com.comcast.crm.AnnotationScripts.AssertCreateContactTest@7c6908d7]" name="createContactWithOrgTest" class="com.comcast.crm.AnnotationScripts.AssertCreateContactTest"/>
+      </group> <!-- regressionTest -->
+    </groups>
+    <test started-at="2025-05-14T12:35:50 IST" name="Default test" finished-at="2025-05-14T12:36:28 IST" duration-ms="37803">
+      <class name="com.comcast.crm.AnnotationScripts.AssertCreateContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.AnnotationScripts.AssertCreateContactTest@7c6908d7]" started-at="2025-05-14T12:35:50 IST" name="configBS" finished-at="2025-05-14T12:35:50 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.comcast.crm.AnnotationScripts.AssertCreateContactTest@7c6908d7]" started-at="2025-05-14T12:35:50 IST" name="configBC" finished-at="2025-05-14T12:35:59 IST" duration-ms="8838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.AnnotationScripts.AssertCreateContactTest@7c6908d7]" started-at="2025-05-14T12:35:59 IST" name="configBM" finished-at="2025-05-14T12:36:01 IST" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:com.comcast.crm.AnnotationScripts.AssertCreateContactTest@7c6908d7]" started-at="2025-05-14T12:36:01 IST" name="createContactWithOrgTest" finished-at="2025-05-14T12:36:26 IST" duration-ms="24824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.AnnotationScripts.AssertCreateContactTest@7c6908d7]" started-at="2025-05-14T12:36:26 IST" name="configAM" finished-at="2025-05-14T12:36:27 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.AnnotationScripts.AssertCreateContactTest@7c6908d7]" started-at="2025-05-14T12:36:27 IST" name="configAC" finished-at="2025-05-14T12:36:28 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.AnnotationScripts.AssertCreateContactTest@7c6908d7]" started-at="2025-05-14T12:36:28 IST" name="configAS" finished-at="2025-05-14T12:36:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.AnnotationScripts.AssertCreateContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
